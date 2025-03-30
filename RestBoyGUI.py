@@ -120,7 +120,7 @@ class RestBoyGUI:
 
     
     def openRequest(self, requestName):
-        req = Request(requestName, "GET", "https://run.mocky.io/v3/e04fb8c0-83f3-4c58-a690-e4028bffdb68", "")
+        req = Request(requestName, "GET", "http://localhost:56135/xyna/ping?input=sepp", "")
         self.addRequestPane(req)
 
 
